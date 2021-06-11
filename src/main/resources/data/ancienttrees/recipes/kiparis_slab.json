@@ -1,18 +1,15 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "###"
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 6
+      "item": "ancienttrees:kiparis_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:sslab0",
-	"data":6,
+    "item": "ancienttrees:kiparis_slab",
 	"count": 6
   }
 }

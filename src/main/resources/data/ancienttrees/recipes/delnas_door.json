@@ -1,6 +1,5 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "##",
     "##",
@@ -8,12 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 3
+      "item": "ancienttrees:delnas_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:door3",
+    "item": "ancienttrees:delnas_door",
 	"count": 3
   }
 }

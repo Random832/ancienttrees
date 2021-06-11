@@ -1,6 +1,5 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "##",
     "##",
@@ -8,12 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 11
+      "item": "ancienttrees:salyx_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:door11",
+    "item": "ancienttrees:salyx_door",
 	"count": 3
   }
 }

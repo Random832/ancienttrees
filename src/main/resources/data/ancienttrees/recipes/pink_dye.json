@@ -1,13 +1,11 @@
 {
-  "type": "crafting_shapeless",
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ancienttrees:sapling0",
-      "data": 2
+      "item": "ancienttrees:cerasu_sapling"
     }
   ],
   "result": {
-    "item": "minecraft:dye",
-    "data": 9
+    "item": "minecraft:pink_dye"
   }
 }
