@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "ancienttrees:wood0",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "ancienttrees:door6",
+	"count": 3
+  }
+}

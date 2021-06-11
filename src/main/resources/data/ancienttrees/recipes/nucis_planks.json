@@ -1,0 +1,14 @@
+{
+  "type": "crafting_shapeless",
+
+  "ingredients": [
+    {
+      "item": "ancienttrees:log0",
+      "data": 1
+    }
+  ],
+  "result": {
+    "item": "minecraft:wood0",
+    "data": 9
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ancienttrees:wood0",
+      "data": 5
+    }
+  },
+  "result": {
+    "item": "ancienttrees:sslab0",
+	"data":5,
+	"count": 6
+  }
+}
