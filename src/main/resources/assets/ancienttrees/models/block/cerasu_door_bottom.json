@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "ancienttrees:block/cerasu_door_top",
+    "bottom": "ancienttrees:block/cerasu_door_bottom"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "ancienttrees:block/salyx_door_top",
+    "bottom": "ancienttrees:block/salyx_door_bottom"
+  }
+}

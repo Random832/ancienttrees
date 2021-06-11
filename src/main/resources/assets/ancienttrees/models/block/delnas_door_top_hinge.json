@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "ancienttrees:block/delnas_door_top",
+    "bottom": "ancienttrees:block/delnas_door_bottom"
+  }
+}

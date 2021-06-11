@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "ancienttrees:block/tuopa_door_top",
+    "bottom": "ancienttrees:block/tuopa_door_bottom"
+  }
+}
