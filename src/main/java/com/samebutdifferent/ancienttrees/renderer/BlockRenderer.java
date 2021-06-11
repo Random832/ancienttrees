@@ -1,4 +1,4 @@
-package com.samebutdifferent.ancienttrees.block;
+package com.samebutdifferent.ancienttrees.renderer;
 
 import com.samebutdifferent.ancienttrees.init.ModBlocks;
 import net.minecraft.client.renderer.RenderType;
