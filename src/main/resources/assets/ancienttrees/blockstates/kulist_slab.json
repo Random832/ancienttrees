@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/kulist_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/kulist_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/kulist_slab_top"
+    }
+  }
+}

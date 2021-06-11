@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "ancienttrees:block/cerasu_log_top",
+    "side": "ancienttrees:block/cerasu_log"
+  }
+}

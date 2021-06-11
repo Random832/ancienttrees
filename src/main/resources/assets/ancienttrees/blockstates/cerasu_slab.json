@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/cerasu_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/cerasu_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/cerasu_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ancienttrees:block/kulist_log_top",
+    "side": "ancienttrees:block/kulist_log"
+  }
+}

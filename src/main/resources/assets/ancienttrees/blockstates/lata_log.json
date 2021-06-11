@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ancienttrees:block/lata_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ancienttrees:block/lata_log"
+    },
+    "axis=z": {
+      "model": "ancienttrees:block/lata_log_horizontal",
+      "x": 90
+    }
+  }
+}

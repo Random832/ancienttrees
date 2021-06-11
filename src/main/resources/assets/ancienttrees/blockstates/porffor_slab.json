@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/porffor_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/porffor_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/porffor_slab_top"
+    }
+  }
+}

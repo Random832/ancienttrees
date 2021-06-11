@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "ancienttrees:block/tuopa_log_top",
+    "side": "ancienttrees:block/tuopa_log"
+  }
+}

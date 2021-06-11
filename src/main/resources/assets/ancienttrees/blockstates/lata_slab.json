@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/lata_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/lata_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/lata_slab_top"
+    }
+  }
+}

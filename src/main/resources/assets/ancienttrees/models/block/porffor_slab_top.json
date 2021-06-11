@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "ancienttrees:block/porffor_planks",
+    "top": "ancienttrees:block/porffor_planks",
+    "side": "ancienttrees:block/porffor_planks"
+  }
+}

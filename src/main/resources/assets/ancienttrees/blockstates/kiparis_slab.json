@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/kiparis_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/kiparis_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/kiparis_slab_top"
+    }
+  }
+}

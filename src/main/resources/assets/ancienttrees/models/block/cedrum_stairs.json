@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "ancienttrees:block/cedrum_planks",
+    "top": "ancienttrees:block/cedrum_planks",
+    "side": "ancienttrees:block/cedrum_planks"
+  }
+}

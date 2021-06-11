@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "ancienttrees:block/kulist_sapling"
+  }
+}

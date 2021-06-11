@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/delnas_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/delnas_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/delnas_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/acemus_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/acemus_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/acemus_slab_top"
+    }
+  }
+}

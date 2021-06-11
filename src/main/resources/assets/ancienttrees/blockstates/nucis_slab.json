@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/nucis_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/nucis_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/nucis_slab_top"
+    }
+  }
+}

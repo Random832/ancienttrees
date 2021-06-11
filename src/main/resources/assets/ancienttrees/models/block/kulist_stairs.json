@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "ancienttrees:block/kulist_planks",
+    "top": "ancienttrees:block/kulist_planks",
+    "side": "ancienttrees:block/kulist_planks"
+  }
+}

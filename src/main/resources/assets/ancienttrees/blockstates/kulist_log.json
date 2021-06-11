@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ancienttrees:block/kulist_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ancienttrees:block/kulist_log"
+    },
+    "axis=z": {
+      "model": "ancienttrees:block/kulist_log_horizontal",
+      "x": 90
+    }
+  }
+}

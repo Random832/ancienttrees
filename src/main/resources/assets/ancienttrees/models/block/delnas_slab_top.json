@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "ancienttrees:block/delnas_planks",
+    "top": "ancienttrees:block/delnas_planks",
+    "side": "ancienttrees:block/delnas_planks"
+  }
+}

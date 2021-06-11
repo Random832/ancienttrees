@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/hekur_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/hekur_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/hekur_slab_top"
+    }
+  }
+}

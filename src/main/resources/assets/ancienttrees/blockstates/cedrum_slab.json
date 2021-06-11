@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/cedrum_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/cedrum_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/cedrum_slab_top"
+    }
+  }
+}

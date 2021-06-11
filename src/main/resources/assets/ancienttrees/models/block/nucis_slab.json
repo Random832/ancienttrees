@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ancienttrees:block/nucis_planks",
+    "top": "ancienttrees:block/nucis_planks",
+    "side": "ancienttrees:block/nucis_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ancienttrees:block/salyx_slab"
+    },
+    "type=double": {
+      "model": "ancienttrees:block/salyx_planks"
+    },
+    "type=top": {
+      "model": "ancienttrees:block/salyx_slab_top"
+    }
+  }
+}

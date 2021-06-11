@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "ancienttrees:block/cerasu_planks",
+    "top": "ancienttrees:block/cerasu_planks",
+    "side": "ancienttrees:block/cerasu_planks"
+  }
+}
