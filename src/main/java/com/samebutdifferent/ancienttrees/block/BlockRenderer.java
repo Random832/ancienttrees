@@ -20,5 +20,19 @@ public class BlockRenderer {
         RenderTypeLookup.setRenderLayer(ModBlocks.PORFFOR_SAPLING.get(), rendertype2);
         RenderTypeLookup.setRenderLayer(ModBlocks.SALYX_SAPLING.get(), rendertype2);
         RenderTypeLookup.setRenderLayer(ModBlocks.TUOPA_SAPLING.get(), rendertype2);
+
+        RenderTypeLookup.setRenderLayer(ModBlocks.ACEMUS_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.CEDRUM_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.CERASU_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.DELNAS_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.EWCALY_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.HEKUR_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.KIPARIS_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.KULIST_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.LATA_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.NUCIS_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.PORFFOR_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.SALYX_DOOR.get(), rendertype2);
+        RenderTypeLookup.setRenderLayer(ModBlocks.TUOPA_DOOR.get(), rendertype2);
     }
 }
