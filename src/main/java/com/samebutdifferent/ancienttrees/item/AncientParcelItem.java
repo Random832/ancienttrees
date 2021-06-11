@@ -40,7 +40,7 @@ public class AncientParcelItem extends Item {
     public void getRandomSapling(ServerWorld world, PlayerEntity player) {
         LootTable loottable = world.getServer().getLootTables().get(ANCIENT_PARCEL_LOOT);
         LootContext.Builder builder = new LootContext.Builder(world);
-        for (ItemStack sapling : loottable.getRandomItems(builder.create(loottable.getParamSet()))) {
+        for (ItemStack sapling : loottable.getRandomItems(builder.create(LootParameterSets.EMPTY))) {
             ItemEntity entityItem = player.drop(sapling, true, true);
             entityItem.setPickUpDelay(0);
             entityItem.setOwner(player.getUUID());
