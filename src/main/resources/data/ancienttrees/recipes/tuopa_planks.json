@@ -1,14 +1,12 @@
 {
-  "type": "crafting_shapeless",
-
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ancienttrees:log0",
-      "data": 4
+      "item": "ancienttrees:tuopa_log"
     }
   ],
   "result": {
-    "item": "minecraft:wood0",
-    "data": 13
+    "item": "ancienttrees:tuopa_planks",
+    "count": 4
   }
 }

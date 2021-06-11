@@ -1,14 +1,12 @@
 {
-  "type": "crafting_shapeless",
-
+  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ancienttrees:log0",
-      "data": 1
+      "item": "ancienttrees:nucis_log"
     }
   ],
   "result": {
-    "item": "minecraft:wood0",
-    "data": 9
+    "item": "ancienttrees:nucis_planks",
+    "count": 4
   }
 }

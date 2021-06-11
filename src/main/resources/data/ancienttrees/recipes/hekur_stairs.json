@@ -1,6 +1,5 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "#  ",
     "## ",
@@ -8,12 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 5
+      "item": "ancienttrees:hekur_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:stairs5",
+    "item": "ancienttrees:hekur_stairs",
 	"count": 4
   }
 }

@@ -1,6 +1,5 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "#  ",
     "## ",
@@ -8,12 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 2
+      "item": "ancienttrees:cerasu_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:stairs2",
+    "item": "ancienttrees:cerasu_stairs",
 	"count": 4
   }
 }

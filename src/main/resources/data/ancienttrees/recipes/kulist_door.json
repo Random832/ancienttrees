@@ -1,6 +1,5 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "##",
     "##",
@@ -8,12 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 7
+      "item": "ancienttrees:kulist_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:door7",
+    "item": "ancienttrees:kulist_door",
 	"count": 3
   }
 }

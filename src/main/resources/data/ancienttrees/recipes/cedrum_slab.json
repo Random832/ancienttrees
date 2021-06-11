@@ -1,18 +1,15 @@
 {
-  "type": "crafting_shaped",
-
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "###"
   ],
   "key": {
     "#": {
-      "item": "ancienttrees:wood0",
-      "data": 1
+      "item": "ancienttrees:cedrum_planks"
     }
   },
   "result": {
-    "item": "ancienttrees:sslab0",
-	"data":1,
+    "item": "ancienttrees:cedrum_slab",
 	"count": 6
   }
 }
