@@ -3,9 +3,14 @@ package com.samebutdifferent.ancienttrees;
 import com.samebutdifferent.ancienttrees.renderer.BlockRenderer;
 import com.samebutdifferent.ancienttrees.init.ModBlocks;
 import com.samebutdifferent.ancienttrees.init.ModItems;
+import com.samebutdifferent.ancienttrees.world.AcemusColorizer;
+import com.samebutdifferent.ancienttrees.world.Colorizer;
 import net.minecraft.block.Block;
+import net.minecraft.block.LeavesBlock;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.resources.IReloadableResourceManager;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -46,6 +51,8 @@ public class AncientTrees {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        // Register the block colors method
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::registerBlockColors);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -58,6 +65,19 @@ public class AncientTrees {
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         BlockRenderer.renderBlocks();
+        //Colorizer.registerBlockColor(ModBlocks.ACEMUS_LEAVES.get());
+
+        //Colorizer.registerItemBlockColor(ModBlocks.ACEMUS_LEAVES.get());
+
+        /*IReloadableResourceManager mgr = ((IReloadableResourceManager) event.getMinecraftSupplier().get().getResourceManager());
+
+        event.enqueueWork(() -> {
+           mgr.registerReloadListener(AcemusColorizer.INSTANCE);
+        });*/
+    }
+
+    private void registerBlockColors(final ColorHandlerEvent.Block event) {
+        event.getBlockColors().register(AcemusColorizer.INSTANCE, ModBlocks.ACEMUS_LEAVES.get());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
