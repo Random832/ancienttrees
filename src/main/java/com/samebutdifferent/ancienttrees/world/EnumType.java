@@ -4,9 +4,11 @@ import net.minecraft.util.IStringSerializable;
 
 public enum EnumType implements IStringSerializable {
     ACEMUS("acemus"),
-    CEDRUM("cedrum"),
     CERASU("cerasu"),
-    DELNAS("delnas");
+    KULIST("kulist"),
+    HEKUR("hekur"),
+    LATA("lata"),
+    NUCIS("nucis");
 
     private final String species;
 

@@ -17,24 +17,18 @@ public class Colorizer {
             if(pos != null && access.getBlockState(pos).getBlock() instanceof LeavesBlock){
                 if(block instanceof ModLeavesBlock){
                     String val = access.getBlockState(pos).getValue(ModLeavesBlock.VARIANT).toString();
-                    switch (val){
-                        case "ACEMUS":
-                            return AcemusColorizer.getColor(pos);
-                        case "CERASU":
-                            return CerasuColorizer.getColor(pos);
+                    if (val.equals("ACEMUS")){
+                        return AcemusColorizer.getColor(pos);
                     }
-                }
-                else if(block instanceof ModLeaves2Block){
-                    String val = access.getBlockState(pos).getValue(ModLeavesBlock.VARIANT).toString();
+                    if (val.equals("CERASU")){
+                        return CerasuColorizer.getColor(pos);
+                    }
                     if (val.equals("KULIST")){
                         return KulistColorizer.getColor(pos);
                     }
                     if (val.equals("HEKUR")){
                         return BiomeColors.getAverageFoliageColor(access,pos);
                     }
-                }
-                else if(block instanceof ModLeaves3Block){
-                    String val = access.getBlockState(pos).getValue(ModLeavesBlock.VARIANT).toString();
                     if (val.equals("LATA")){
                         return BiomeColors.getAverageFoliageColor(access,pos);
                     }
@@ -42,11 +36,7 @@ public class Colorizer {
                         return BiomeColors.getAverageFoliageColor(access,pos);
                     }
                 }
-                else if(block instanceof ModLeaves4Block){
-                    return BiomeColors.getAverageFoliageColor(access,pos);
-                }
-            }
-                return 0xFFFFFF;
+            } return 0xFFFFFF;
         }, block);
     }
 }
