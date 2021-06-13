@@ -2,6 +2,7 @@ package com.samebutdifferent.ancienttrees.init;
 
 import com.samebutdifferent.ancienttrees.AncientTrees;
 import com.samebutdifferent.ancienttrees.block.*;
+import com.samebutdifferent.ancienttrees.world.EnumType;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -31,19 +32,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> SALYX_LOG = register("salyx_log", ModLogBlock::new);
     public static final RegistryObject<Block> TUOPA_LOG = register("tuopa_log", ModLogBlock::new);
 
-    public static final RegistryObject<Block> ACEMUS_LEAVES = register("acemus_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> CEDRUM_LEAVES = register("cedrum_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> CERASU_LEAVES = register("cerasu_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> DELNAS_LEAVES = register("delnas_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> EWCALY_LEAVES = register("ewcaly_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> HEKUR_LEAVES = register("hekur_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> KIPARIS_LEAVES = register("kiparis_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> KULIST_LEAVES = register("kulist_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> LATA_LEAVES = register("lata_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> NUCIS_LEAVES = register("nucis_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> PORFFOR_LEAVES = register("porffor_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> SALYX_LEAVES = register("salyx_leaves", ModLeavesBlock::new);
-    public static final RegistryObject<Block> TUOPA_LEAVES = register("tuopa_leaves", ModLeavesBlock::new);
+    public static final RegistryObject<ModLeavesBlock> ACEMUS_LEAVES = register("acemus_leaves", () -> new ModLeavesBlock(EnumType.ACEMUS));
+    public static final RegistryObject<ModLeavesBlock> CEDRUM_LEAVES = register("cedrum_leaves", () -> new ModLeavesBlock(null));
+    public static final RegistryObject<ModLeavesBlock> CERASU_LEAVES = register("cerasu_leaves", () -> new ModLeavesBlock(EnumType.CERASU));
+    public static final RegistryObject<ModLeavesBlock> DELNAS_LEAVES = register("delnas_leaves", () -> new ModLeavesBlock(null));
+    public static final RegistryObject<ModLeavesBlock> EWCALY_LEAVES = register("ewcaly_leaves", () -> new ModLeavesBlock(EnumType.EWCALY));
+    public static final RegistryObject<ModLeavesBlock> HEKUR_LEAVES = register("hekur_leaves", () -> new ModLeavesBlock(EnumType.HEKUR));
+    public static final RegistryObject<ModLeavesBlock> KIPARIS_LEAVES = register("kiparis_leaves", () -> new ModLeavesBlock(EnumType.KIPARIS));
+    public static final RegistryObject<ModLeavesBlock> KULIST_LEAVES = register("kulist_leaves", () -> new ModLeavesBlock(EnumType.KULIST));
+    public static final RegistryObject<ModLeavesBlock> LATA_LEAVES = register("lata_leaves", () -> new ModLeavesBlock(EnumType.LATA));
+    public static final RegistryObject<ModLeavesBlock> NUCIS_LEAVES = register("nucis_leaves", () -> new ModLeavesBlock(EnumType.NUCIS));
+    public static final RegistryObject<ModLeavesBlock> PORFFOR_LEAVES = register("porffor_leaves", () -> new ModLeavesBlock(EnumType.PORFFOR));
+    public static final RegistryObject<ModLeavesBlock> SALYX_LEAVES = register("salyx_leaves", () -> new ModLeavesBlock(EnumType.SALYX));
+    public static final RegistryObject<ModLeavesBlock> TUOPA_LEAVES = register("tuopa_leaves", () -> new ModLeavesBlock(null));
 
     public static final RegistryObject<Block> ACEMUS_PLANKS = register("acemus_planks", ModPlanksBlock::new);
     public static final RegistryObject<Block> CEDRUM_PLANKS = register("cedrum_planks", ModPlanksBlock::new);

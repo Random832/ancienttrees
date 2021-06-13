@@ -35,7 +35,7 @@ public class AncientParcelItem extends Item {
         tooltip.add(new TranslationTextComponent("ancienttrees.ancient_parcel.tooltip").withStyle(TextFormatting.GOLD));
     }
 
-    public static final ResourceLocation ANCIENT_PARCEL_LOOT = new ResourceLocation("ancienttrees", "items/ancient_parcel");
+    public static final ResourceLocation ANCIENT_PARCEL_LOOT = new ResourceLocation(AncientTrees.MOD_ID, "items/ancient_parcel");
 
     public void getRandomSapling(ServerWorld world, PlayerEntity player) {
         LootTable loottable = world.getServer().getLootTables().get(ANCIENT_PARCEL_LOOT);

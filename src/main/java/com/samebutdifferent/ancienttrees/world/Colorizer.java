@@ -9,7 +9,10 @@ import net.minecraft.world.IBlockDisplayReader;
 import net.minecraft.world.biome.BiomeColors;
 
 public class Colorizer {
-    public static void registerBlockColor(final LeavesBlock block) {
+
+    // OLD CLASS, NOT BEING USED ANYMORE. KEEP FOR REFERENCE.
+
+    /*public static void registerBlockColor(final LeavesBlock block) {
         Minecraft.getInstance().getBlockColors().register((BlockState state, IBlockDisplayReader access, BlockPos pos, int tintIndex) -> {
             if(!(access.getBlockState(pos).getBlock() instanceof LeavesBlock)){
                 pos.below();
@@ -38,5 +41,5 @@ public class Colorizer {
                 }
             } return 0xFFFFFF;
         }, block);
-    }
+    }*/
 }

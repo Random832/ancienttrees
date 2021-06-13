@@ -7,8 +7,12 @@ public enum EnumType implements IStringSerializable {
     CERASU("cerasu"),
     KULIST("kulist"),
     HEKUR("hekur"),
+    EWCALY("ewcaly"),
+    KIPARIS("kiparis"),
     LATA("lata"),
-    NUCIS("nucis");
+    NUCIS("nucis"),
+    PORFFOR("porffor"),
+    SALYX("salyx");
 
     private final String species;
 

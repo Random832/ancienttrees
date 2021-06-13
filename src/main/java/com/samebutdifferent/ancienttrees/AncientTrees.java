@@ -3,9 +3,16 @@ package com.samebutdifferent.ancienttrees;
 import com.samebutdifferent.ancienttrees.renderer.BlockRenderer;
 import com.samebutdifferent.ancienttrees.init.ModBlocks;
 import com.samebutdifferent.ancienttrees.init.ModItems;
+import com.samebutdifferent.ancienttrees.world.AcemusColorizer;
+import com.samebutdifferent.ancienttrees.world.CerasuColorizer;
+import com.samebutdifferent.ancienttrees.world.KulistColorizer;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.FoliageColors;
+import net.minecraft.world.biome.BiomeColors;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -46,6 +53,8 @@ public class AncientTrees {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        // Register the block colors method
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::registerBlockColors);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -58,6 +67,15 @@ public class AncientTrees {
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         BlockRenderer.renderBlocks();
+    }
+
+    private void registerBlockColors(final ColorHandlerEvent.Block event) {
+        event.getBlockColors().register(AcemusColorizer.INSTANCE, ModBlocks.ACEMUS_LEAVES.get());
+        event.getBlockColors().register(CerasuColorizer.INSTANCE, ModBlocks.CERASU_LEAVES.get());
+        event.getBlockColors().register(KulistColorizer.INSTANCE, ModBlocks.KULIST_LEAVES.get());
+        event.getBlockColors().register((state, reader, pos, color) -> {
+            return reader != null && pos != null ? BiomeColors.getAverageFoliageColor(reader, pos) : FoliageColors.getDefaultColor();
+        }, ModBlocks.HEKUR_LEAVES.get(), ModBlocks.LATA_LEAVES.get(), ModBlocks.NUCIS_LEAVES.get(), ModBlocks.TUOPA_LEAVES.get());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
